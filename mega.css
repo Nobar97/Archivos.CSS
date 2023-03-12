@@ -1,0 +1,34 @@
+.boton.mega span {
+	transition: .4s ease-in-out all;
+	position: absolute;
+	left: 40%;
+}
+
+.boton.mega .icono {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	z-index: 2;
+	left: -40px;
+	transition: .3s ease-in-out all;
+	opacity: 0;
+}
+
+.boton.mega svg {
+	color: #fff;
+	width: 35px;
+	height: 35px;
+}
+
+.boton.mega:hover {
+	background: #e51313;
+}
+
+.boton.mega:hover .icono {
+	left: calc(100% - 50px);
+	opacity: 1;
+}
+
+.boton.mega:hover span {
+	left: 20px;
+}
