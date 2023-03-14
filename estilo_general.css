@@ -4,12 +4,6 @@
 	box-sizing: border-box;
 }
 
-body {
-	background: #f2f2f2;
-	font-family: 'Roboto', sans-serif;
-	min-height: 100vh;
-}
-
 .contenedor-botones {
 	width: 100%;
 	display: grid;
